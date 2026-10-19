@@ -1,0 +1,21 @@
+input[type=range]::-webkit-slider-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #6366f1;
+  cursor: pointer;
+}
+
+.type-btn.active {
+  background-color: rgba(99, 102, 241, 0.2);
+  color: #a5b4fc;
+  border-color: #6366f1;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
